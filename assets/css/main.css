@@ -23,6 +23,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     color: #333;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+/* Black Border*/
+h7 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
@@ -87,7 +97,7 @@ a:after {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -134,7 +144,7 @@ a:after {
 	color: white;
 	font-size: 28px;
 	font-weight: 700;
-	letter-spacing: 1px;	
+	letter-spacing: 1px;
 }
 
 #f i {
@@ -220,7 +230,7 @@ a:after {
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 14px;
@@ -309,5 +319,3 @@ a:after {
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
-
-
